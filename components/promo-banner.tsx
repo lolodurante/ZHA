@@ -35,7 +35,7 @@ export default function PromoBanner({ position = "top" }: PromoBannerProps) {
             <DollarSign className="h-10 w-10 text-[#29416C]" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            ¡COMIENZA CON <span className="text-green-400">$100 USD</span> DE REGALO!
+            ¡COMIENZA CON <span style={{color:"#82b8ec"}}>$100 USD</span> DE REGALO!
           </h2>
           <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
             Como Zoho Affiliate, te regalamos $100 USD para que empieces a transformar tu negocio hoy mismo
