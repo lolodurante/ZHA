@@ -99,7 +99,7 @@ export default function WhyZoho() {
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     className="flex items-center space-x-2 text-white"
                   >
-                    <CheckCircle2 className="h-5 w-5 text-green-400" />
+                    <CheckCircle2 className="h-5 w-5" style={{color: "#82b8ec"}} />
                     <span>{feature}</span>
                   </motion.div>
                 ))}

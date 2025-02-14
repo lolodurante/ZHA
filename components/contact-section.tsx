@@ -86,7 +86,12 @@ export default function ContactSection() {
             </a>
             <a href="tel:+5491138667371">
               <Button variant="outline" className="rounded-full">
-              +54 911 3866 7371
+              +54 911 3866 7371 (Argentina)
+              </Button>
+            </a>
+            <a href="tel:+5215588066265">
+              <Button variant="outline" className="rounded-full">
+              +52 1 558 806 6265 (Mexico)
               </Button>
             </a>
           </div>
