@@ -21,7 +21,9 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
-              <span className="text-2xl font-bold text-[#29416C] dark:text-white">ZHA</span>
+              <span className="text-2xl font-bold text-[#29416C] dark:text-white">
+                <img src="/Logo-ZHA.png" alt="Zoho Partner" className="h-8" />
+              </span>
             </a>
           </div>
 
