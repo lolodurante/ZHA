@@ -78,7 +78,7 @@ export default function ContactSection() {
 
         <div className="text-center">
           <p className="text-gray-600 dark:text-gray-300 mb-4">¿Prefieres contactarnos directamente?</p>
-          <div className="space-x-4">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 md:justify-center flex-wrap">
             <a href="mailto:hola@zhadmin.com">
               <Button variant="outline" className="rounded-full">
                 hola@zhadmin.com
@@ -91,7 +91,7 @@ export default function ContactSection() {
             </a>
             <a href="tel:+5215588066265">
               <Button variant="outline" className="rounded-full">
-              +52 1 558 806 6265 (Mexico)
+              +52 1 558 806 6265 (México)
               </Button>
             </a>
           </div>
