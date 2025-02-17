@@ -89,7 +89,7 @@ export default function ZohoEcosystem() {
             <Card key={app.name} className="w-[300px] flex-shrink-0 hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex flex-col items-center text-center">
-                  <img src={app.icon || "/placeholder.svg"} alt={app.name} className="w-20 h-20 mb-4" />
+                  <img src={app.icon || "/placeholder.svg"} alt={app.name || "Zoho App"} className="w-20 h-20 mb-4" />
                   <h3 className="text-xl font-semibold text-[#29416C] dark:text-white mb-2">{app.name}</h3>
                   <p className="text-gray-600 dark:text-gray-300">{app.description}</p>
                 </div>
