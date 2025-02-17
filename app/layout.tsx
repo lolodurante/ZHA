@@ -4,8 +4,11 @@ import { Analytics } from "@vercel/analytics/react"
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Transforma tu negocio con Zoho | Consultoría y Soluciones ZHA',
+  title: 'ZHA | Zoho Affiliate',
   description: 'Optimiza tu empresa con las soluciones de Zoho. Consultoría, CRM, automatización y más. ¡Obtén $100 USD de regalo al iniciar!',
+  icons: {
+    icon: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({
