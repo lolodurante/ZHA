@@ -41,16 +41,15 @@ export default function PromoBanner({ position = "top" }: PromoBannerProps) {
             Como Zoho Affiliate, te regalamos $100 USD para que empieces a transformar tu negocio hoy mismo
           </p>
           <div className="flex justify-center">
-            <Button 
-              size="lg" 
-              className="bg-white text-[#29416C] hover:bg-white/90 hover:scale-105 rounded-full px-12 py-8 text-xl font-bold transition-all duration-300 shadow-xl hover:shadow-2xl"
-              onClick={() => {
-                window.open("https://go.zoho.com/XhM", "_blank", "noopener,noreferrer");
-              }}
+            <a 
+              href="https://go.zoho.com/XhM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-white text-[#29416C] hover:bg-white/90 rounded-full px-12 py-8 text-xl font-bold transition-transform duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105"
             >
               ¡Quiero mis $100 USD de regalo!
               <ArrowRight className="ml-2 h-6 w-6" />
-            </Button>
+            </a>
           </div>
         </motion.div>
       </div>
