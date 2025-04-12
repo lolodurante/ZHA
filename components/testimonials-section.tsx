@@ -7,10 +7,10 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "María González",
-    role: "CEO, TechCorp",
+    name: "Yazmin Dimas Uribe",
+    role: "Universidad IMPE",
     content:
-      "La implementación de Zoho con ZHA transformó completamente nuestros procesos. Su equipo demostró un conocimiento excepcional y un compromiso total con nuestro éxito.",
+      "Marcia y su equipo nos han brindado soluciones personalizadas en todo momento. Su atención y escucha de nuestras necesidades ha permitido que nos brinden soluciones para mejorar nuestra eficiencia operativa. Sin duda, son un aliado confiable para cualquier organización que busque innovar y mejorar su gestión a través de la tecnología.",
     image: "/placeholder.svg",
   },
   {

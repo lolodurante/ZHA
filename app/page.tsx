@@ -8,6 +8,7 @@ import PromoBanner from "@/components/promo-banner"
 import TestimonialsSection from "@/components/testimonials-section"
 import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
+import ClientsSection from "@/components/clients-section"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <StatsSection />
         <ZohoEcosystem />
         <WhyZoho />
+        <ClientsSection />
         <TestimonialsSection />
         <PromoBanner position="bottom" />
         <ContactSection />
