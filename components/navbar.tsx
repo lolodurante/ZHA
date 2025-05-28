@@ -9,6 +9,7 @@ const menuItems = [
   { name: "Servicios", href: "#servicios" },
   { name: "Trayectoria", href: "#trayectoria" },
   { name: "Testimonios", href: "#testimonios" },
+  { name: "Formación", href: "https://campus.zhadmin.com" },
   { name: "Mesa de ayuda", href: "https://zhaportal.zohodesk.com/portal/"}
 ]
 
