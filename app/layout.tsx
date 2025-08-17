@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
 import Script from 'next/script'
+import WhatsAppFloat from '@/components/whatsapp-float'
 
 export const metadata: Metadata = {
   title: 'ZHA | Zoho Affiliate',
@@ -34,7 +35,10 @@ export default function RootLayout({
         />
       </head>
       <Analytics />
-      <body>{children}</body>
+      <body>
+        {children}
+        <WhatsAppFloat />
+      </body>
     </html>
   )
 }
